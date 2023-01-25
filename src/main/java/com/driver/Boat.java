@@ -3,7 +3,7 @@ package com.driver;
 public class Boat implements WaterVehicle{
     String name;
     int capacity;
-    Boat(String Name,int Capacity){
+    public Boat(String Name,int Capacity){
         this.name=Name;
         this.capacity=Capacity;
     }
@@ -13,5 +13,4 @@ public class Boat implements WaterVehicle{
     public int getVehicleCapacity(){
         return capacity;
     }
-
 }
