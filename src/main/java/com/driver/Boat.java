@@ -5,7 +5,7 @@ public class Boat implements WaterVehicle{
     int capacity;
     Boat(String Name,int Capacity){
         this.name=Name;
-        this.Capacity=capacity;
+        this.capacity=Capacity;
     }
     public String getVehicleName(){
         return name;
